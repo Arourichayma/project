@@ -1,0 +1,163 @@
+ .background{
+    background-image: url('khaled.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    background-color: #333;
+    height: 80px;
+  }
+  .navbar ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .navbar li {
+    margin: 0 35px;
+  }
+
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+ 
+  .text2{
+    font-size: 90px;
+    margin-left: 21%;
+    margin-top: 50px;
+    color:rgb(148, 164, 151);
+    font-family: fantasy;   
+  
+  }
+  .text1{
+  font-size: 90px;
+    margin-left: 25%;
+    margin-top: 100px;
+    color:rgb(24, 130, 40);
+    font-family: fantasy;
+    
+  }
+  .navbar a:hover {
+    background-color: orange;
+  }
+
+  .search{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+  .pizza-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;  
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+ 
+   .name{
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 1px;
+   }
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .pizza-wrapper{
+      display: flex;
+    flex-wrap: wrap;
+   }
+   .container {  
+    max-width: 500px;
+    margin:auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .contact {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input,
+  textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: rgb(90, 67, 25);
+  }
+  
+.about{
+  margin-right: 25%;
+  margin-left : 25%;
+  font-size: 30px;
+}
+.filter{
+  
+  display: table-column;
+  width: 10%;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.inputText{
+  font-size: 25px ;
+}
+  
